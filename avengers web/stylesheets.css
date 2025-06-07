@@ -1,0 +1,78 @@
+.gallery img{width: 100%;}
+#menu{width: 100%;height: 40px;background-color: aqua;
+padding-top: 12px;}
+#menu a{color: aliceblue;font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;font-size: 18Px;text-decoration: none;font-weight: 800;
+padding-left: 20px;padding-right: 20px;}
+
+#menu a:hover{color: blueviolet;}
+
+
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f2f2f2;
+}
+
+#menu {
+  background-color: #333;
+  color: #fff;
+  padding: 10px;
+  text-align: center;
+}
+
+#menu a {
+  color: #fff;
+  text-decoration: none;
+  margin: 0 10px;
+}
+
+
+#menu a:hover {
+  color: #ccc;
+}
+
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.gallery a {
+  margin: 10px;
+}
+
+.gallery img {
+  width: 200px;
+  height: 150px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  transition: transform 0.2s ease-in-out;
+}
+
+.gallery img:hover {
+  transform: scale(1.1);
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.4);
+}
+
+
+.gallery a {
+  text-decoration: none;
+}
+
+/* Add some superhero flair */
+body {
+  background-image: linear-gradient(to bottom, #3498db, #2ecc71);
+}
+
+#menu {
+  background-color: #e74c3c;
+  border-bottom: 2px solid #c0392b;
+}
+
+#menu a {
+  font-weight: bold;
+}
+
+.gallery img {
+  border: 2px solid #fff;
+}
